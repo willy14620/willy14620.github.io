@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://willy14620.github.io/about/index.html</loc>
+    
+    <lastmod>2020-07-21T15:04:10.396Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://willy14620.github.io/2020/07/21/test/</loc>
     
     <lastmod>2020-07-21T11:52:42.458Z</lastmod>
@@ -30,13 +37,6 @@
   </url>
   
   <url>
-    <loc>https://willy14620.github.io/about/index.html</loc>
-    
-    <lastmod>2020-07-21T11:41:05.201Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://willy14620.github.io/archives/index.html</loc>
     
     <lastmod>2020-07-21T11:29:35.755Z</lastmod>
@@ -47,13 +47,6 @@
     <loc>https://willy14620.github.io/2020/07/21/hello-world/</loc>
     
     <lastmod>2020-07-21T11:26:00.792Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://willy14620.github.io/2020/07/21/My-Gallery/</loc>
-    
-    <lastmod>2020-07-21T07:42:34.422Z</lastmod>
     
   </url>
   

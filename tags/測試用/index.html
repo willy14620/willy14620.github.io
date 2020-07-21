@@ -19,7 +19,7 @@
     
     
   <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
-  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
+  <link href="/lib/pace/pace-theme-bounce.min.css?v=1.0.2" rel="stylesheet">
 
 
 
@@ -82,12 +82,12 @@
 
 
 
-<meta name="description" content="歡迎來到 willy14620 的部落格！">
+<meta name="description" content="紀錄自己學習的過程">
 <meta property="og:type" content="website">
 <meta property="og:title" content="willy14620&#39;s Blog">
 <meta property="og:url" content="https://willy14620.github.io/tags/%E6%B8%AC%E8%A9%A6%E7%94%A8/index.html">
 <meta property="og:site_name" content="willy14620&#39;s Blog">
-<meta property="og:description" content="歡迎來到 willy14620 的部落格！">
+<meta property="og:description" content="紀錄自己學習的過程">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:author" content="willy14620">
 <meta name="twitter:card" content="summary">
@@ -373,8 +373,12 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/uploads/myimg.jpg"
+                alt="willy14620" />
+            
               <p class="site-author-name" itemprop="name">willy14620</p>
-              <p class="site-description motion-element" itemprop="description">歡迎來到 willy14620 的部落格！</p>
+              <p class="site-description motion-element" itemprop="description">紀錄自己學習的過程</p>
           </div>
 
           <nav class="site-state motion-element">
@@ -384,7 +388,7 @@
               
                 <a href="/archives/%7C%7C%20archive">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">文章</span>
                 </a>
               </div>
@@ -520,6 +524,8 @@
   
 
 
+  
+
 
 
 
@@ -558,6 +564,11 @@
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
   
 
 
@@ -642,7 +653,7 @@
     var isfetched = false;
     var isXml = true;
     // Search DB path;
-    var search_path = "search.json";
+    var search_path = "search.xml";
     if (search_path.length === 0) {
       search_path = "search.xml";
     } else if (/json$/i.test(search_path)) {
