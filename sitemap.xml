@@ -2,16 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://willy14620.github.io/about/index.html</loc>
+    <loc>https://willy14620.github.io/2020/07/22/Welcome/</loc>
     
-    <lastmod>2020-07-22T03:01:35.610Z</lastmod>
+    <lastmod>2020-07-22T12:09:16.161Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://willy14620.github.io/2020/07/22/C%E8%AA%9E%E8%A8%80%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8/</loc>
+    
+    <lastmod>2020-07-22T12:05:50.158Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://willy14620.github.io/2020/07/22/hexo%E6%95%99%E5%AD%B8/</loc>
+    
+    <lastmod>2020-07-22T12:05:44.450Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://willy14620.github.io/2020/07/22/UVA272/</loc>
+    
+    <lastmod>2020-07-22T12:05:38.834Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://willy14620.github.io/2020/07/21/test/</loc>
     
-    <lastmod>2020-07-21T11:52:42.458Z</lastmod>
+    <lastmod>2020-07-22T11:32:14.942Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://willy14620.github.io/about/index.html</loc>
+    
+    <lastmod>2020-07-22T11:25:28.133Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://willy14620.github.io/2020/07/22/Markdown/</loc>
+    
+    <lastmod>2020-07-22T11:13:22.344Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://willy14620.github.io/2020/07/21/hello-world/</loc>
+    
+    <lastmod>2020-07-22T11:13:15.579Z</lastmod>
     
   </url>
   
@@ -40,13 +82,6 @@
     <loc>https://willy14620.github.io/archives/index.html</loc>
     
     <lastmod>2020-07-21T11:29:35.755Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://willy14620.github.io/2020/07/21/hello-world/</loc>
-    
-    <lastmod>2020-07-21T11:26:00.792Z</lastmod>
     
   </url>
   
