@@ -63,17 +63,12 @@
 
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/blog16x16.ico?v=5.1.4">
 
 
 
 
 
-
-  <meta name="keywords" content="C,Computer science,Program for beginner," />
-
-
-
+  <meta name="keywords" content="C,Program for beginner,Computer science," />
 
 
 
@@ -81,20 +76,23 @@
 
 
 
-<meta name="description" content="C 語言入門緩慢更新 :D">
+
+
+
 <meta property="og:type" content="article">
 <meta property="og:title" content="C 語言入門">
 <meta property="og:url" content="https://willy14620.github.io/posts/c43bd37.html">
-<meta property="og:site_name" content="willy14620&#39;s Blog">
-<meta property="og:description" content="C 語言入門緩慢更新 :D">
+<meta property="og:site_name" content="Mu&#39;s Blog">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://willy14620.github.io/posts/c43bd37/C.png">
 <meta property="article:published_time" content="2020-07-22T11:26:00.000Z">
-<meta property="article:modified_time" content="2020-07-23T06:00:46.456Z">
-<meta property="article:author" content="willy14620">
+<meta property="article:modified_time" content="2020-08-23T10:26:07.898Z">
+<meta property="article:author" content="Mu (willy14620)">
 <meta property="article:tag" content="C">
-<meta property="article:tag" content="Computer science">
 <meta property="article:tag" content="Program for beginner">
+<meta property="article:tag" content="Computer science">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://willy14620.github.io/posts/c43bd37/C.png">
 
 
 
@@ -131,7 +129,7 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap" rel="stylesheet">
-  <title>C 語言入門 | willy14620's Blog</title>
+  <title>C 語言入門 | Mu's Blog</title>
   
 
 
@@ -161,7 +159,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">willy14620's Blog</span>
+        <span class="site-title">Mu's Blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -315,13 +313,13 @@
     <link itemprop="mainEntityOfPage" href="https://willy14620.github.io/posts/c43bd37.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="willy14620">
+      <meta itemprop="name" content="Mu (willy14620)">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/uploads/myimg.jpg">
+      <meta itemprop="image" content="/uploads/cat.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="willy14620's Blog">
+      <meta itemprop="name" content="Mu's Blog">
     </span>
 
     
@@ -424,11 +422,14 @@
       
 
       
-        <h1 id="C-語言入門"><a href="#C-語言入門" class="headerlink" title="C 語言入門"></a>C 語言入門</h1><p><code>緩慢更新 :D</code></p>
+        <img src="/posts/c43bd37/C.png" class="">
+
 <a id="more"></a>
 
 <hr>
-<h2 id="開始之前"><a href="#開始之前" class="headerlink" title="開始之前"></a>開始之前</h2><p><code>PS:內容適用於初學者，若有程式基礎的可跳過！</code></p>
+<h2 id="開始之前"><a href="#開始之前" class="headerlink" title="開始之前"></a>開始之前</h2><blockquote>
+<p>PS：內容適用於初學者，若有程式基礎的可跳過！</p>
+</blockquote>
 <p>先到<a href="https://sourceforge.net/projects/orwelldevcpp/" target="_blank" rel="noopener">Dev C++</a>下載編譯器，並安裝。</p>
 <hr>
 <h2 id="程式碼基本架構"><a href="#程式碼基本架構" class="headerlink" title="程式碼基本架構"></a>程式碼基本架構</h2><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 引用函式庫</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	</span><br><span class="line">    <span class="comment">// 程式主體</span></span><br><span class="line">    <span class="comment">//..........</span></span><br><span class="line">    <span class="comment">//..........</span></span><br><span class="line">    </span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -448,10 +449,14 @@
 <li>整數型態<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 陣列宣告</span></span><br><span class="line"><span class="keyword">int</span> arr[長度];</span><br></pre></td></tr></table></figure></li>
 <li>浮點數<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 陣列宣告</span></span><br><span class="line"><span class="keyword">float</span> arr[長度];</span><br></pre></td></tr></table></figure></li>
 <li>字元<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 陣列宣告</span></span><br><span class="line"><span class="keyword">char</span> arr[長度];</span><br></pre></td></tr></table></figure>
-<code>PS:宣告陣列時請記得要告知長度為何，否則要使用動態配置記憶體(malloc()函數)。</code></li>
+
+</li>
 </ul>
 </li>
 </ul>
+<blockquote>
+<p>PS：宣告陣列時請記得要告知長度為何，否則要使用動態配置記憶體(malloc()函數)。</p>
+</blockquote>
 <hr>
 <h2 id="printf-scanf-印出-儲存"><a href="#printf-scanf-印出-儲存" class="headerlink" title="printf/scanf 印出/儲存"></a>printf/scanf 印出/儲存</h2><ul>
 <li>於螢幕上印出程式結果 (printf)<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">"%d"</span>, 變數);  <span class="comment">// 印出整數型態 (int)</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">"%ld"</span>, 變數);  <span class="comment">// 印出長整數型態 (long)</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">"%f"</span>, 變數);  <span class="comment">// 印出浮點數型態 (float)</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">"%lf"</span>, 變數);  <span class="comment">// 印出雙精度浮點數型態 (double)</span></span><br><span class="line"><span class="built_in">print</span>(<span class="string">"%c"</span>, 變數);  <span class="comment">// 印出字元型態 (char)</span></span><br></pre></td></tr></table></figure></li>
@@ -477,15 +482,26 @@
 <h2 id="for-while-迴圈"><a href="#for-while-迴圈" class="headerlink" title="for/while 迴圈"></a>for/while 迴圈</h2><ul>
 <li>迴圈目的:執行相同程式碼多次</li>
 <li>for<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 次數總共5次</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; <span class="number">5</span>;i++)&#123;</span><br><span class="line">	<span class="comment">// 要執行的程式碼</span></span><br><span class="line">    <span class="comment">// .............</span></span><br><span class="line">    <span class="comment">// .............</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<code>PS:遞增 { 變數++ } 、 遞減 { 變數-- }</code></li>
+
+</li>
+</ul>
+<blockquote>
+<p>PS：遞增 { 變數++ } 、 遞減 { 變數– }</p>
+</blockquote>
+<ul>
 <li>while<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 當條件成立時繼續執行，反之跳出。</span></span><br><span class="line"><span class="keyword">while</span>(條件式)</span><br><span class="line">	<span class="comment">// 要執行的程式碼</span></span><br><span class="line">    <span class="comment">// .............</span></span><br><span class="line">    <span class="comment">// .............</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 <li>do while<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 當條件成立時繼續執行，反之跳出。</span></span><br><span class="line"><span class="comment">// 與while不同，至少會執行一次。</span></span><br><span class="line"><span class="comment">// 最後才進行判斷</span></span><br><span class="line"><span class="keyword">do</span>&#123;</span><br><span class="line">	<span class="comment">// 要執行的程式碼</span></span><br><span class="line">    <span class="comment">// .............</span></span><br><span class="line">    <span class="comment">// .............</span></span><br><span class="line">&#125;<span class="keyword">while</span>(條件式)</span><br></pre></td></tr></table></figure>
-<code>PS:使用while或do-while時，要注意條件判斷，否則可能會造成無窮迴圈。</code></li>
+
+</li>
 </ul>
+<blockquote>
+<p>PS：使用while或do-while時，要注意條件判斷，否則可能會造成無窮迴圈。</p>
+</blockquote>
 <hr>
-<h2 id="指標"><a href="#指標" class="headerlink" title="指標"></a>指標</h2><p><code>PS:偏難，建議先熟練基礎語法再學。</code><br><strong>待補</strong></p>
-<hr>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>如果覺得自己已經熟練語法，可以試試去<a href="https://onlinejudge.org" target="_blank" rel="noopener">UVA</a>挑戰題目。</p>
+<h2 id="指標"><a href="#指標" class="headerlink" title="指標"></a>指標</h2><blockquote>
+<p>PS：偏難，建議先熟練基礎語法再學。</p>
+</blockquote>
+<h2 id="待補"><a href="#待補" class="headerlink" title="待補"></a><strong>待補</strong></h2><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>如果覺得自己已經熟練語法，可以試試去<a href="https://onlinejudge.org" target="_blank" rel="noopener">UVA</a>挑戰題目。</p>
 <hr>
 <h2 id="參考"><a href="#參考" class="headerlink" title="參考"></a>參考</h2><p>參考網址:<a href="https://openhome.cc/Gossip/index.html" target="_blank" rel="noopener">良葛格學習筆記</a></p>
 
@@ -507,9 +523,9 @@
           
             <a href="/tags/C/" rel="tag"># C</a>
           
-            <a href="/tags/Computer-science/" rel="tag"># Computer science</a>
-          
             <a href="/tags/Program-for-beginner/" rel="tag"># Program for beginner</a>
+          
+            <a href="/tags/Computer-science/" rel="tag"># Computer science</a>
           
         </div>
       
@@ -522,8 +538,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/posts/31d3401f.html" rel="next" title="html 基本語法">
-                <i class="fa fa-chevron-left"></i> html 基本語法
+              <a href="/posts/31d3401f.html" rel="next" title="HTML 基本語法">
+                <i class="fa fa-chevron-left"></i> HTML 基本語法
               </a>
             
           </div>
@@ -532,8 +548,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/posts/de228b21.html" rel="prev" title="網站概述">
-                網站概述 <i class="fa fa-chevron-right"></i>
+              <a href="/posts/de228b21.html" rel="prev" title="Welcome My Website！">
+                Welcome My Website！ <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -611,10 +627,10 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
-                src="/uploads/myimg.jpg"
-                alt="willy14620" />
+                src="/uploads/cat.jpg"
+                alt="Mu (willy14620)" />
             
-              <p class="site-author-name" itemprop="name">willy14620</p>
+              <p class="site-author-name" itemprop="name">Mu (willy14620)</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
@@ -696,7 +712,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#C-語言入門"><span class="nav-number">1.</span> <span class="nav-text">C 語言入門</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#開始之前"><span class="nav-number">1.1.</span> <span class="nav-text">開始之前</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#程式碼基本架構"><span class="nav-number">1.2.</span> <span class="nav-text">程式碼基本架構</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#變數"><span class="nav-number">1.3.</span> <span class="nav-text">變數</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#陣列"><span class="nav-number">1.4.</span> <span class="nav-text">陣列</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#printf-scanf-印出-儲存"><span class="nav-number">1.5.</span> <span class="nav-text">printf&#x2F;scanf 印出&#x2F;儲存</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#if-else-條件判斷"><span class="nav-number">1.6.</span> <span class="nav-text">if&#x2F;else 條件判斷</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#switch-case-條件判斷"><span class="nav-number">1.7.</span> <span class="nav-text">switch&#x2F;case 條件判斷</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#for-while-迴圈"><span class="nav-number">1.8.</span> <span class="nav-text">for&#x2F;while 迴圈</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#指標"><span class="nav-number">1.9.</span> <span class="nav-text">指標</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他"><span class="nav-number">1.10.</span> <span class="nav-text">其他</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#參考"><span class="nav-number">1.11.</span> <span class="nav-text">參考</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#開始之前"><span class="nav-number">1.</span> <span class="nav-text">開始之前</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#程式碼基本架構"><span class="nav-number">2.</span> <span class="nav-text">程式碼基本架構</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#變數"><span class="nav-number">3.</span> <span class="nav-text">變數</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#陣列"><span class="nav-number">4.</span> <span class="nav-text">陣列</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#printf-scanf-印出-儲存"><span class="nav-number">5.</span> <span class="nav-text">printf&#x2F;scanf 印出&#x2F;儲存</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#if-else-條件判斷"><span class="nav-number">6.</span> <span class="nav-text">if&#x2F;else 條件判斷</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#switch-case-條件判斷"><span class="nav-number">7.</span> <span class="nav-text">switch&#x2F;case 條件判斷</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#for-while-迴圈"><span class="nav-number">8.</span> <span class="nav-text">for&#x2F;while 迴圈</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#指標"><span class="nav-number">9.</span> <span class="nav-text">指標</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#待補"><span class="nav-number">10.</span> <span class="nav-text">待補</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他"><span class="nav-number">11.</span> <span class="nav-text">其他</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#參考"><span class="nav-number">12.</span> <span class="nav-text">參考</span></a></li></ol></div>
             
 
           </div>
@@ -727,7 +743,7 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">willy14620</span>
+  <span class="author" itemprop="copyrightHolder">Mu (willy14620)</span>
 
   
 </div>
